@@ -6,6 +6,12 @@ const CONTENT = {
     bio: "พื้นที่สำรวจชีวิตสำหรับคนธรรมดา"
   },
 
+  groups: [
+    { label: "Short Form", ids: ["instagram", "tiktok"] },
+    { label: "Long Form",  ids: ["youtube"] },
+    { label: "Writing",    ids: ["substack"] }
+  ],
+
   channels: [
     {
       id: "instagram",
