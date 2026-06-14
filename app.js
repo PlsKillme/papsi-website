@@ -12,7 +12,8 @@ function init() {
       <span class="link-icon" style="color: ${ch.color}">${ch.icon}</span>
       <span class="link-text">
         <span class="link-name">${ch.name}</span>
-        <span class="link-sub">${ch.handle} &middot; ${ch.label}</span>
+        <span class="link-desc">${ch.desc}</span>
+        <span class="link-handle">${ch.handle}</span>
       </span>
       <span class="link-arrow">&#8250;</span>
     </a>
