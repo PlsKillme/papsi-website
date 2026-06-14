@@ -7,9 +7,8 @@ const CONTENT = {
   },
 
   groups: [
-    { label: "Short Form", desc: "สำหรับเข้าใจตัวเองและสิ่งรอบตัว",     ids: ["instagram", "tiktok"], grouped: true },
-    { label: "Video",      desc: "Podcast ยาวสำหรับสำรวจพื้นที่ภายใน",  ids: ["youtube"] },
-    { label: "Article",    desc: "บทความสำหรับสะท้อนสิ่งที่อยู่ภายใน", ids: ["substack"] }
+    { label: "Short Form", desc: "สำหรับเข้าใจตัวเองและสิ่งรอบตัว",  ids: ["instagram", "tiktok"],   grouped: true },
+    { label: "Long Form",  desc: "สำหรับตกผลึกสิ่งที่อยู่ภายใน",     ids: ["youtube",   "substack"], grouped: true }
   ],
 
   channels: [
